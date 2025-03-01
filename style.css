@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 400px;
+    padding: 25px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.container p {
+    font-size: 15px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.container input {
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 15px;
+    outline: none;
+}
+
+.container button {
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s;
+}
+
+.container button:hover {
+    background-color: #333;
+}
+
+/* QR Image Box */
+#imgbox {
+    display: none;
+    margin-top: 15px;
+}
+
+#imgbox img {
+    width: 150px;
+    height: 150px;
+}
